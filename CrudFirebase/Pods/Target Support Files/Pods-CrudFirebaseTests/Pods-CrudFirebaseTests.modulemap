@@ -1,0 +1,6 @@
+framework module Pods_CrudFirebaseTests {
+  umbrella header "Pods-CrudFirebaseTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01083B76328ED90778B0D08E /* Pods_CrudFirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1ADB4DEEE551440CB47542D /* Pods_CrudFirebaseTests.framework */; };
+		51467E6FAC68F5E6804443DE /* Pods_CrudFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB833B6E0FD28B2F6BAA2BB3 /* Pods_CrudFirebase.framework */; };
+		A2F09F5AA32D9341006CFB6D /* Pods_CrudFirebase_CrudFirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA70C15D5DECEFD74350843 /* Pods_CrudFirebase_CrudFirebaseUITests.framework */; };
 		E50C8BF42824A1E100784F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C8BF32824A1E100784F8B /* AppDelegate.swift */; };
 		E50C8BF62824A1E100784F8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C8BF52824A1E100784F8B /* SceneDelegate.swift */; };
 		E50C8BF82824A1E100784F8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C8BF72824A1E100784F8B /* ViewController.swift */; };
@@ -17,6 +20,8 @@
 		E50C8C0E2824A1E200784F8B /* CrudFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C8C0D2824A1E200784F8B /* CrudFirebaseTests.swift */; };
 		E50C8C182824A1E200784F8B /* CrudFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C8C172824A1E200784F8B /* CrudFirebaseUITests.swift */; };
 		E50C8C1A2824A1E200784F8B /* CrudFirebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C8C192824A1E200784F8B /* CrudFirebaseUITestsLaunchTests.swift */; };
+		E54813852824C2DD0019226B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E54813842824C2DD0019226B /* GoogleService-Info.plist */; };
+		E5C756F628257200004B7C26 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C756F528257200004B7C26 /* ReadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3706F38D1C3E340FBA82FE3A /* Pods-CrudFirebase-CrudFirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrudFirebase-CrudFirebaseUITests.debug.xcconfig"; path = "Target Support Files/Pods-CrudFirebase-CrudFirebaseUITests/Pods-CrudFirebase-CrudFirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B0BEFD88BD6DED14294A514 /* Pods-CrudFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrudFirebase.release.xcconfig"; path = "Target Support Files/Pods-CrudFirebase/Pods-CrudFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		437D5376DE729B3D564C4A7C /* Pods-CrudFirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrudFirebaseTests.debug.xcconfig"; path = "Target Support Files/Pods-CrudFirebaseTests/Pods-CrudFirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		803EB68463671C0B7402BE14 /* Pods-CrudFirebase-CrudFirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrudFirebase-CrudFirebaseUITests.release.xcconfig"; path = "Target Support Files/Pods-CrudFirebase-CrudFirebaseUITests/Pods-CrudFirebase-CrudFirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8882AC3E78A4569653BAAD6F /* Pods-CrudFirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrudFirebaseTests.release.xcconfig"; path = "Target Support Files/Pods-CrudFirebaseTests/Pods-CrudFirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1ADB4DEEE551440CB47542D /* Pods_CrudFirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrudFirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB833B6E0FD28B2F6BAA2BB3 /* Pods_CrudFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrudFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA70C15D5DECEFD74350843 /* Pods_CrudFirebase_CrudFirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrudFirebase_CrudFirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50C8BF02824A1E100784F8B /* CrudFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrudFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50C8BF32824A1E100784F8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E50C8BF52824A1E100784F8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +64,9 @@
 		E50C8C132824A1E200784F8B /* CrudFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrudFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50C8C172824A1E200784F8B /* CrudFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrudFirebaseUITests.swift; sourceTree = "<group>"; };
 		E50C8C192824A1E200784F8B /* CrudFirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrudFirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E54813842824C2DD0019226B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E5C756F528257200004B7C26 /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
+		FAD520ADEF6CA602C0C3CD78 /* Pods-CrudFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrudFirebase.debug.xcconfig"; path = "Target Support Files/Pods-CrudFirebase/Pods-CrudFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51467E6FAC68F5E6804443DE /* Pods_CrudFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01083B76328ED90778B0D08E /* Pods_CrudFirebaseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F09F5AA32D9341006CFB6D /* Pods_CrudFirebase_CrudFirebaseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B376B7A7D92CF0386B9ACB68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB833B6E0FD28B2F6BAA2BB3 /* Pods_CrudFirebase.framework */,
+				CEA70C15D5DECEFD74350843 /* Pods_CrudFirebase_CrudFirebaseUITests.framework */,
+				B1ADB4DEEE551440CB47542D /* Pods_CrudFirebaseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E38C18284E32B5B27D33A8E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAD520ADEF6CA602C0C3CD78 /* Pods-CrudFirebase.debug.xcconfig */,
+				3B0BEFD88BD6DED14294A514 /* Pods-CrudFirebase.release.xcconfig */,
+				3706F38D1C3E340FBA82FE3A /* Pods-CrudFirebase-CrudFirebaseUITests.debug.xcconfig */,
+				803EB68463671C0B7402BE14 /* Pods-CrudFirebase-CrudFirebaseUITests.release.xcconfig */,
+				437D5376DE729B3D564C4A7C /* Pods-CrudFirebaseTests.debug.xcconfig */,
+				8882AC3E78A4569653BAAD6F /* Pods-CrudFirebaseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E50C8BE72824A1E100784F8B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +127,8 @@
 				E50C8C0C2824A1E200784F8B /* CrudFirebaseTests */,
 				E50C8C162824A1E200784F8B /* CrudFirebaseUITests */,
 				E50C8BF12824A1E100784F8B /* Products */,
+				E38C18284E32B5B27D33A8E4 /* Pods */,
+				B376B7A7D92CF0386B9ACB68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,7 +152,9 @@
 				E50C8BFF2824A1E200784F8B /* Assets.xcassets */,
 				E50C8C012824A1E200784F8B /* LaunchScreen.storyboard */,
 				E50C8C042824A1E200784F8B /* Info.plist */,
+				E54813842824C2DD0019226B /* GoogleService-Info.plist */,
 				E50C8BFC2824A1E100784F8B /* CrudFirebase.xcdatamodeld */,
+				E5C756F528257200004B7C26 /* ReadViewController.swift */,
 			);
 			path = CrudFirebase;
 			sourceTree = "<group>";
@@ -137,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E50C8C1D2824A1E200784F8B /* Build configuration list for PBXNativeTarget "CrudFirebase" */;
 			buildPhases = (
+				C65EC985B0AF88FA3DF97F70 /* [CP] Check Pods Manifest.lock */,
 				E50C8BEC2824A1E100784F8B /* Sources */,
 				E50C8BED2824A1E100784F8B /* Frameworks */,
 				E50C8BEE2824A1E100784F8B /* Resources */,
+				CEC3F2FF4B787B64985858FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E50C8C202824A1E200784F8B /* Build configuration list for PBXNativeTarget "CrudFirebaseTests" */;
 			buildPhases = (
+				81DC1AC4D6EE44C018EEDB55 /* [CP] Check Pods Manifest.lock */,
 				E50C8C052824A1E200784F8B /* Sources */,
 				E50C8C062824A1E200784F8B /* Frameworks */,
 				E50C8C072824A1E200784F8B /* Resources */,
@@ -172,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E50C8C232824A1E200784F8B /* Build configuration list for PBXNativeTarget "CrudFirebaseUITests" */;
 			buildPhases = (
+				23F7F7001816BFA75AB959A2 /* [CP] Check Pods Manifest.lock */,
 				E50C8C0F2824A1E200784F8B /* Sources */,
 				E50C8C102824A1E200784F8B /* Frameworks */,
 				E50C8C112824A1E200784F8B /* Resources */,
+				4FDB39A7A132C9FE20676EEA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E50C8C032824A1E200784F8B /* LaunchScreen.storyboard in Resources */,
+				E54813852824C2DD0019226B /* GoogleService-Info.plist in Resources */,
 				E50C8C002824A1E200784F8B /* Assets.xcassets in Resources */,
 				E50C8BFB2824A1E100784F8B /* Main.storyboard in Resources */,
 			);
@@ -256,11 +308,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23F7F7001816BFA75AB959A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrudFirebase-CrudFirebaseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FDB39A7A132C9FE20676EEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrudFirebase-CrudFirebaseUITests/Pods-CrudFirebase-CrudFirebaseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrudFirebase-CrudFirebaseUITests/Pods-CrudFirebase-CrudFirebaseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrudFirebase-CrudFirebaseUITests/Pods-CrudFirebase-CrudFirebaseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81DC1AC4D6EE44C018EEDB55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrudFirebaseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C65EC985B0AF88FA3DF97F70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrudFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEC3F2FF4B787B64985858FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrudFirebase/Pods-CrudFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrudFirebase/Pods-CrudFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrudFirebase/Pods-CrudFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E50C8BEC2824A1E100784F8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C756F628257200004B7C26 /* ReadViewController.swift in Sources */,
 				E50C8BFE2824A1E100784F8B /* CrudFirebase.xcdatamodeld in Sources */,
 				E50C8BF82824A1E100784F8B /* ViewController.swift in Sources */,
 				E50C8BF42824A1E100784F8B /* AppDelegate.swift in Sources */,
@@ -436,6 +592,7 @@
 		};
 		E50C8C1E2824A1E200784F8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD520ADEF6CA602C0C3CD78 /* Pods-CrudFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +621,7 @@
 		};
 		E50C8C1F2824A1E200784F8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B0BEFD88BD6DED14294A514 /* Pods-CrudFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +650,7 @@
 		};
 		E50C8C212824A1E200784F8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 437D5376DE729B3D564C4A7C /* Pods-CrudFirebaseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +671,7 @@
 		};
 		E50C8C222824A1E200784F8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8882AC3E78A4569653BAAD6F /* Pods-CrudFirebaseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +692,7 @@
 		};
 		E50C8C242824A1E200784F8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3706F38D1C3E340FBA82FE3A /* Pods-CrudFirebase-CrudFirebaseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +711,7 @@
 		};
 		E50C8C252824A1E200784F8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 803EB68463671C0B7402BE14 /* Pods-CrudFirebase-CrudFirebaseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
